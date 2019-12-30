@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.king.sqliPHP">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PHP.MainActivityPHP"></activity>
+        <activity android:name=".PHP.ViewActivityPHP" />
+        <activity android:name=".Local.ViewActivityLocal" />
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PHP.SearchActivityPhp" />
+        <activity android:name=".PHP.Update1ActivityPhp" />
+        <activity android:name=".PHP.UpdateActivityPhp" />
+        <activity android:name=".Local.SearchActivityLocal" />
+        <activity android:name=".Local.DeleteActivityLocal" />
+        <activity android:name=".Local.Update1ActivityLocal" />
+        <activity android:name=".Local.UpdateActivityLocal" />
+        <activity android:name=".Local.InsertActivityLocal" />
+        <activity android:name=".Local.MainActivityLocal" />
+        <activity android:name=".PHP.DeleteActivityPhp" />
+        <activity android:name=".PHP.InsertActivityPhp" />
+    </application>
+
+</manifest>

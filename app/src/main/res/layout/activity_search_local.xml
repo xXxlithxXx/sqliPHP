@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33FF6D00"
+    tools:context=".Local.SearchActivityLocal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextSearchL"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="Search By Name OR phone OR email"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/bttnSearchL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#80FF6D00"
+            android:text="Search" />
+
+        <Button
+            android:id="@+id/btnToBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#806200EA"
+            android:text="Back" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewID"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+
+                android:text="ID" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/textViewPhone"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="Phone" />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="Email" />
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/listViewSL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

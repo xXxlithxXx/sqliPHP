@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-android"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5E304FFE"
+    tools:context=".Local.MainActivityLocal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnToView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C490F0F"
+            android:hapticFeedbackEnabled="false"
+            android:shadowColor="#D2780BE4"
+            android:text="VIEW"
+            android:textColor="#9C27B0"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/bttnToAddL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C490F0F"
+            android:text="ADD"
+            android:textColor="#4CAF50"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/bttnToUpdateL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C490F0F"
+            android:text="Update"
+            android:textColor="#FF9800"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/bttnToDeleteL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C490F0F"
+            android:text="Delete"
+            android:textColor="#F44336"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/bttnToSearchL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C490F0F"
+            android:text="Search"
+            android:textColor="#00BCD4"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnToBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C490F0F"
+            android:text="Back"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="322dp"
+            app2:srcCompat="@drawable/sqlite" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
